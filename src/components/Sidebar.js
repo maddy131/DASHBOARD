@@ -11,13 +11,13 @@ const Sidebar = () => {
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
-    <SideNav sidebar={sidebar}>
+    <SideNav expanded={sidebar}>
     
-        {/* <SideNavIcon 
-                Icon : Close 
+        {<SideNavIcon 
+                
                 onClick={showSidebar}
             >
-        </SideNavIcon> */}
+        </SideNavIcon> }
         {Sidebardata.map((item, index) => {
             return (
                 <SubMenu/>
