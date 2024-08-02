@@ -11,7 +11,7 @@ const Sidebar = () => {
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
-    <SideNav expanded={sidebar}>
+    <SideNav expanded={sidebar} isFixedNav aria-label="Side navigation">
     
         {<SideNavIcon 
                 

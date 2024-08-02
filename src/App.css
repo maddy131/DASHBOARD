@@ -4,3 +4,14 @@
   overflow: hidden;
   display: flex;
 }
+.Dashboard,
+.Usersmanagement,
+.Classes_Workshop,
+.Corporate_Wellness_program,
+.Content_management,
+.Reports_and_analytics,
+.Settings{
+  display: flex;
+    margin-left: 260px;
+    font-size: 2rem;
+}
